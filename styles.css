@@ -1,0 +1,818 @@
+/////////////STYLE 1 - INDEX.PHP////////////
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width : 1200px;
+    margin : auto;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+
+header{
+    background: #14b16a;
+    height : 70px;
+    position: relative;
+    color : white;
+    padding-top : 15px;
+}
+
+header ol{
+    display: inline-flex;
+}
+
+.connexionlangues{
+    margin-left: 490px;
+}
+
+.menus{
+    display: inline-flex;
+}
+
+.menus li{
+    list-style: none;
+    margin-right : 25px;
+}
+
+#pays{
+    border : 0px;
+    color : white;
+    background: #14b16a;
+}
+
+header .connexion{
+    border-radius: 40px 0px 0px 40px;
+    background: #06995a;
+    border : 0px;
+    color : white;
+    height : 36px;
+    width : 130px;
+    margin : auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header .enregistrement{
+    border-radius: 0px 40px 40px 0px;
+    background: #06995a;
+    border : 0px;
+    color : white;
+    height : 36px;
+    width : 137px;
+    margin : auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header input:hover{
+    background: #067746;
+}
+
+
+.accueil{
+    background: #14b16a;
+}
+
+.accueil .titre{
+    padding-top: 210px;
+    color : white;
+    font-size: 56px;
+    margin : 0px;
+    text-align: center;
+}
+
+.accueil h2{
+    color : white;
+    margin-top : 0px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.heros{
+    justify-content: center;
+    display: block;
+    margin : auto;
+    position: relative;
+    z-index: 0;
+    width : 1127px
+}
+
+
+.apropos{
+    position: relative;
+    margin-top : -80px;
+    padding-top : 50px;
+    background: white;
+    text-align: center;
+    color : #4E4930;
+    font-weight: 400;
+    
+}
+.apropos h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.apropos h2{
+    margin-top : 35px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.apropos p{
+    width : 715px;
+    margin-left : auto;
+    margin-right: auto;
+    margin-top : 36px;
+    font-size: 18px;
+}
+
+.apropos ol{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.apropos .chiffre{
+    font-size: 28px;
+    margin-bottom : 24px;
+}
+.un{
+    margin-left : -46px;
+    padding-bottom : 60px;
+}
+
+.deux{
+    margin-right : 46px;
+    margin-left : 46px;
+    padding-bottom : 60px;
+}
+
+.trois{
+    padding-bottom : 60px;
+}
+
+.apropos li{
+    list-style: none;
+    width : 214px;
+    font-size: 18px;
+}
+
+.ccm h3{
+    margin-top : 35px;
+    margin-bottom : 36px;
+    font-size: 20px;
+}
+
+
+.explications{
+    background: #ffe77d;
+    color : #4E4930;
+    font-weight: 400;
+}
+
+.explications p{
+    font-size: 28px;
+    width : 382px;
+    font-weight: 400;
+}
+
+.explications h3{
+    font-size: 20px;
+    width : 265px;
+    font-weight: 400;
+}
+
+.roi{
+    margin-left : 138px;
+    z-index: 1;
+}
+
+.haut{
+    width : 900px;
+    display: flex;
+    margin-top : -80px;
+}
+ 
+.textroi {
+    margin-top : 165px;
+    margin-left : 64px;
+    font-size: 20px;
+}
+
+
+.chevalier{
+    margin-left: 78px;
+}
+
+.milieu{
+    width : 900px;
+    display: flex;
+    margin-top : -170px;
+    margin-left : 231px;
+}
+
+.textchevalier{
+    margin-top : 220px;
+
+}
+
+.robot{
+   margin-left : 134px;
+   padding-bottom : 145px
+}
+
+.bas{
+    display: flex;
+    margin-top : -180px;
+    width : 900px;
+}
+
+.textrobot{
+    margin-top : 298px;
+    margin-left : 68px;
+}
+
+.membres{
+    background: #7e385c;
+    color : white;
+    font-weight: 400;
+}
+
+.membres h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top : 0px;
+    padding-top : 71px;
+}
+
+.membres h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.membres p{
+    text-align: center;
+    width : 478px;
+    margin : auto;
+    margin-top : 38px;
+    font-size: 18px;
+}
+
+.dragonform{
+    margin : auto;
+    width : 900px;
+    margin-top : -50px;
+}
+
+.dragon{
+    float : left;
+    margin-top : -120px
+}
+
+.membres form{
+    display: flex;
+    flex-direction: column;
+    margin-top : 150px;
+    width : 388px;
+    margin-left : 35px;
+}
+
+.membres label{
+    margin-top : 6px;
+    font-size: 14px;
+
+}
+
+.membres input{
+    width : 351px;
+    height : 36px;
+    font-size: 14px;
+}
+
+.membres input::placeholder{
+    color : #C1BFB7
+}
+
+.membres .play{
+    margin-top : 25px;
+    width : 192px;
+    height : 60px;
+    border : 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left : auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background: #501132;
+    color : white;
+}
+
+.membres a{
+    margin-left: auto;
+    margin-right: auto;
+    color : #ffe77d;
+    margin-top : 12px;
+    font-size: 14px;
+    padding-bottom : 68px;
+}
+
+.quisommesnous{
+    background: #501132;
+    color : white;
+    font-weight: 300;
+}
+
+.quisommesnous h3{
+    margin-top : 0px;
+    padding-top : 35px;
+    margin-left : 134px;
+    margin-bottom: 23px;
+    text-align: left;
+}
+
+.quisommesnous p{
+    width : 468px;
+    margin-left : 134px;
+}
+
+.membrestwitter{
+    display: flex;
+}
+
+.fa-twitter{
+    font-size: 25px;
+    text-align: center;
+    width : 42px;
+    height : 42px;
+    background: white;
+    border-radius : 100%;
+    color : #501132;
+    margin-left : 135px;
+    margin-top : 25px;
+}
+
+.twitter p{
+    width : 259px;
+    margin-top : -50px;
+    margin-left : 202px;
+}
+
+
+
+.quisommesnous a{
+    color : #ffe77d
+}
+
+////////// STYLE 2 - INDEX.HTML /////////
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width : 1200px;
+    margin : auto;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+
+header{
+    background: #14b16a;
+    height : 70px;
+    position: relative;
+    color : white;
+    padding-top : 15px;
+}
+
+header ol{
+    display: inline-flex;
+}
+
+.connexionlangues{
+    margin-left: 490px;
+}
+
+.menus{
+    display: inline-flex;
+}
+
+.menus h1{
+    margin-top : 0px;
+    font-size: 26px;
+    margin-right : 25px;
+}
+
+#pays{
+    border : 0px;
+    color : white;
+    background: #14b16a;
+}
+
+header input{
+    margin-left : 10px;
+}
+
+header input:hover{
+    background: #067746;
+}
+
+header .connexion{
+    border-radius: 40px 0px 0px 40px;
+    background: #06995a;
+    border : 0px;
+    color : white;
+    height : 36px;
+    width : 130px;
+    margin : auto;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+header .enregistrement{
+    border-radius: 0px 40px 40px 0px;
+    background: #06995a;
+    border : 0px;
+    color : white;
+    height : 36px;
+    width : 137px;
+    margin : auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.accueil{
+    background: #14b16a;
+    width : 1200px;
+}
+
+.accueil .titre{
+    padding-top: 210px;
+    color : white;
+    font-size: 32px;
+    margin : 0px;
+    text-align: center;
+}
+
+.accueil h1{
+    text-align : center;
+    width: 846px;
+    font-size : 57px;
+    color : white;
+    margin-top : 0px;
+    text-align: center;
+    margin-left : auto;
+    margin-right : auto;
+    font-weight: 900;
+}
+
+.accueil .play{
+    width : 252px;
+    height : 60px;
+    font-size : 20px;
+    justify-content: center;
+    display: block;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 48px; 
+    margin-bottom : 48px;
+    color : #14b16a;
+    border : 0px;
+    border-radius: 40px;
+    font-weight: 400;
+}
+.heros{
+    justify-content: center;
+    display: block;
+    margin : auto;
+    position: relative;
+    z-index: 1;
+    width : 1127px
+}
+
+
+.apropos{
+    position: relative;
+    margin-top : -80px;
+    padding-top : 50px;
+    background: white;
+    text-align: center;
+    color : #4E4930;
+    font-weight: 400;
+    
+}
+.apropos h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.apropos h2{
+    margin-top : 35px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.apropos p{
+    width : 715px;
+    margin-left : auto;
+    margin-right: auto;
+    margin-top : 48px;
+    font-size: 18px;
+}
+
+.apropos ol{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.apropos .chiffre{
+    font-size: 28px;
+    margin-bottom : 24px;
+}
+.un{
+    margin-left : -46px;
+    padding-bottom : 60px;
+}
+
+.deux{
+    margin-right : 46px;
+    margin-left : 46px;
+    padding-bottom : 60px;
+}
+
+.trois{
+    padding-bottom : 60px;
+}
+
+.apropos li{
+    list-style: none;
+    width : 214px;
+    font-size: 18px;
+}
+
+.ccm h3{
+    margin-top : 35px;
+    margin-bottom : 36px;
+    font-size: 20px;
+}
+
+
+.explications{
+    background: #ffe77d;
+    color : #4E4930;
+    font-weight: 400;
+}
+
+.explications p{
+    font-size: 28px;
+    width : 382px;
+    font-weight: 400;
+}
+
+.explications h3{
+    font-size: 20px;
+    width : 265px;
+    font-weight: 400;
+}
+
+.roi{
+    margin-left : 138px;
+    z-index: 1;
+}
+
+.haut{
+    width : 900px;
+    display: flex;
+    margin-top : -80px;
+}
+ 
+.textroi {
+    margin-top : 165px;
+    margin-left : 64px;
+    font-size: 20px;
+}
+
+
+.chevalier{
+    margin-left: 78px;
+}
+
+.milieu{
+    width : 900px;
+    display: flex;
+    margin-top : -170px;
+    margin-left : 231px;
+}
+
+.textchevalier{
+    margin-top : 220px;
+
+}
+
+.robot{
+   margin-left : 134px;
+   padding-bottom : 145px
+}
+
+.bas{
+    display: flex;
+    margin-top : -180px;
+    width : 900px;
+}
+
+.textrobot{
+    margin-top : 298px;
+    margin-left : 68px;
+}
+
+.membres{
+    background: #7e385c;
+    color : white;
+    font-weight: 400;
+}
+
+.membres h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top : 0px;
+    padding-top : 71px;
+}
+
+.membres h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.membres p{
+    text-align: center;
+    width : 478px;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 38px;
+    font-size: 18px;
+}
+
+.membres .play{
+    margin-top : 45px;
+    width : 192px;
+    height : 60px;
+    border : 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left : auto;
+    margin-right: auto;
+    border-radius: 40px;
+    background: #501132;
+    color : white;
+    justify-content: center;
+    display: block;
+}
+
+.membres label{
+    justify-content: center;
+    display: block;
+    margin : auto;
+    text-align : center;
+}
+
+
+.dragon{
+    justify-content: center;
+    display: block;
+    margin : auto;
+    position: relative;
+    
+}
+
+.quisommesnous{
+    background: #501132;
+    color : white;
+    font-weight: 300;
+}
+
+.quisommesnous h3{
+    margin-top : 0px;
+    padding-top : 35px;
+    margin-left : 134px;
+    margin-bottom: 23px;
+    text-align: left;
+}
+
+.quisommesnous p{
+    width : 468px;
+    margin-left : 134px;
+}
+
+.membrestwitter{
+    display: flex;
+}
+
+.fa-twitter{
+    font-size: 25px;
+    text-align: center;
+    width : 42px;
+    height : 42px;
+    background: white;
+    border-radius : 100%;
+    color : #501132;
+    margin-left : 135px;
+    margin-top : 25px;
+}
+
+.twitter p{
+    width : 259px;
+    margin-top : -50px;
+    margin-left : 202px;
+}
+
+
+
+.quisommesnous a{
+    color : #ffe77d
+}
+
+/////////// STYLE 3 - INDEX_CONNECTER.PHP //////////////
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width : 1901px;
+    margin : auto;
+    font-family:'Open Sans', sans-serif;
+
+}
+
+
+header{
+    background: #14b16a;
+    height : 70px;
+    position: relative;
+    color : white;
+    padding-top : 15px;
+}
+
+header ol{
+    display: inline-flex;
+}
+
+.connexionlangues{
+    margin-left: 490px;
+}
+
+.menus{
+    display: inline-flex;
+}
+
+.menus h1{
+    margin-top : 0px;
+    font-size: 26px;
+    margin-right : 25px;
+}
+
+#pays{
+    border : 0px;
+    color : white;
+    background: #14b16a;
+}
+
+header input{
+    margin-left : 10px;
+}
+
+header input:hover{
+    background: #067746;
+}
+
+header .connexion{
+    border-radius: 40px 0px 0px 40px;
+    background: #06995a;
+    border : 0px;
+    color : white;
+    height : 36px;
+    width : 130px;
+    margin : auto;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+header .enregistrement{
+    border-radius: 0px 40px 40px 0px;
+    background: #06995a;
+    border : 0px;
+    color : white;
+    height : 36px;
+    width : 137px;
+    margin : auto;
+    font-size: 14px;
+    font-weight: 400;
+}
